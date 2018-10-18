@@ -1,0 +1,7 @@
+.unicorn-horn {
+  animation: …;
+  stroke-dasharray: …px; /* The length of the stroke */
+  stroke-dashoffset: …px; /* The length of the stroke */
+}
+
+/* Plus a @keyframes set that animates `stroke-dashoffset
