@@ -1,7 +1,80 @@
-.unicorn-horn {
-  animation: …;
-  stroke-dasharray: …px; /* The length of the stroke */
-  stroke-dashoffset: …px; /* The length of the stroke */
+.text {
+  color: #fff;
+  font-family: 'Unica One', cursive;
+  z-index: 3;
+  width: 14em;
+  transform: translate(5em, 6em);
 }
 
-/* Plus a @keyframes set that animates `stroke-dashoffset
+h1 {
+  opacity: 0;
+  animation: texty 3s .2s forwards;
+}
+
+@keyframes texty {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+#narwhal-body {
+  stroke-dashoffset: 1982px;
+  stroke-dasharray: 1982px;
+  animation: narwhal 2s linear forwards;
+}
+
+@keyframes narwhal {
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+#rainbow-violet,
+#rainbow-indigo,
+#rainbow-blue,
+#rainbow-green,
+#rainbow-yellow,
+#rainbow-orange,
+#rainbow-red {
+  animation: rainbow 4s linear forwards;
+  stroke-dashoffset: 9270px;
+  stroke-dasharray: 9270px;
+}
+
+@keyframes rainbow {
+  to {
+    stroke-dashoffset: 1012px;
+  }
+}
+
+#narwhal-eye {
+  opacity: 0;
+  animation: eye 3s .2s forwards;
+}
+
+@keyframes eye {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
