@@ -34,18 +34,19 @@ h1 {
 }
 
 @keyframes narwhal {
+
   to {
     stroke-dashoffset: 0;
   }
 
 }
 
-#rainbow-violet,
-#rainbow-indigo,
-#rainbow-blue,
-#rainbow-green,
-#rainbow-yellow,
-#rainbow-orange,
+#rainbow-violet ,
+#rainbow-indigo ,
+#rainbow-blue ,
+#rainbow-green ,
+#rainbow-yellow ,
+#rainbow-orange ,
 #rainbow-red {
   animation: rainbow 4s linear forwards;
   stroke-dashoffset: 9270px;
@@ -53,9 +54,11 @@ h1 {
 }
 
 @keyframes rainbow {
+
   to {
     stroke-dashoffset: 1012px;
   }
+
 }
 
 #narwhal-eye {
