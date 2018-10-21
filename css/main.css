@@ -1,6 +1,6 @@
 .text {
   color: #fff;
-  font-family: 'Unica One', cursive;
+  font-family: "Unica One", sans-serif;
   z-index: 3;
   width: 14em;
   transform: translate(5em, 6em);
