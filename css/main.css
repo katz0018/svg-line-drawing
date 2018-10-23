@@ -41,13 +41,43 @@ h1 {
 
 }
 
-#unicorns-of-the-sea #rainbow-violet,
-#rainbow-indigo,
-#rainbow-blue,
-#rainbow-green,
-#rainbow-yellow,
-#rainbow-orange,
 #rainbow-red {
+  animation: rainbow 4s linear forwards;
+  stroke-dashoffset: 9270px;
+  stroke-dasharray: 9270px;
+}
+
+#rainbow-indigo {
+  animation: rainbow 4s linear forwards;
+  stroke-dashoffset: 9270px;
+  stroke-dasharray: 9270px;
+}
+
+#rainbow-blue {
+  animation: rainbow 4s linear forwards;
+  stroke-dashoffset: 9270px;
+  stroke-dasharray: 9270px;
+}
+
+#rainbow-violet {
+  animation: rainbow 4s linear forwards;
+  stroke-dashoffset: 9270px;
+  stroke-dasharray: 9270px;
+}
+
+#rainbow-yellow {
+  animation: rainbow 4s linear forwards;
+  stroke-dashoffset: 9270px;
+  stroke-dasharray: 9270px;
+}
+
+#rainbow-green {
+  animation: rainbow 4s linear forwards;
+  stroke-dashoffset: 9270px;
+  stroke-dasharray: 9270px;
+}
+
+#rainbow-orange {
   animation: rainbow 4s linear forwards;
   stroke-dashoffset: 9270px;
   stroke-dasharray: 9270px;
